@@ -24,7 +24,10 @@ margin-top:10px;
 }
 
 #container {
-margin: auto;
+margin-top:20%;
+margin-left:20%;
+margin-right:10%;
+margin-bottom:20%
 }
 
 .row{
