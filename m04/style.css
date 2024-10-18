@@ -1,1 +1,37 @@
+#feature,
+.article {
+	height: 10em;
+	margin-bottom: 1em;
+	background-color: #efefef;
+}
+
+#nav {
+  background-color: #ff9aa2;
+}
+
+#feature {
+  background-color: #ffb7b2;
+  background-image: url("https://png.pngtree.com/png-clipart/20230313/original/pngtree-bucket-flowers-pixel-png-image_8985468.png");
+  background-size:contain;
+  background-position: right;
+  background-repeat:no-repeat;
+}
+
+#col1 {
+  background-color: #ffdac1;
+}
+
+#col2 {
+  background-color: #e2f0cb;
+}
+
+#col3 {
+  background-color: #b5ead7;
+}
+
+h1 {
+   font-family: 'GrundschriftRegular';
+   font-weight: normal;
+   font-style: normal;
+}
 
