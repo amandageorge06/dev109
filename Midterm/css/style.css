@@ -70,6 +70,17 @@ list-style-type: none; margin: 0; padding: 0 10px 10px 10px;
 #content h2 { font-weight: normal; font-size: 22px; line-height: 33px; }
 #content h3 { font-size: 17px; font-weight: normal; }
 
+#resumeicon {
+  width: 50px;
+  position: relative;
+  top: 15px;
+}
+
+#chessicon {
+  width: 40px;
+  position: relative;
+  top: 15px;
+}
 
 #footer { 
 -webkit-border-bottom-right-radius: 10px;
@@ -90,4 +101,3 @@ border-top: 1px solid #1f1f1f;
 .left { float: left; }
 .right { float: right; }
 .clear { clear: both; }
-
