@@ -82,6 +82,12 @@ list-style-type: none; margin: 0; padding: 0 10px 10px 10px;
   top: 15px;
 }
 
+#recipiesicon {
+  width: 50px;
+  position: relative;
+  top: 15px;
+}
+
 #footer { 
 -webkit-border-bottom-right-radius: 10px;
 -webkit-border-bottom-left-radius: 10px;
