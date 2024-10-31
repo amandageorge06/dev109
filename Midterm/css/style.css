@@ -87,6 +87,33 @@ list-style-type: none; margin: 0; padding: 0 10px 10px 10px;
   top: 15px;
 }
 
+#htmlvalidated {
+  background-color: #f1f1f1;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+#cssvalidated {
+  background-color: #f1f1f1;
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  position: relative;
+  left: 160px;
+  top: 30px;
+  
+}
+
+
+
+
 #footer { 
 -webkit-border-bottom-right-radius: 10px;
 -webkit-border-bottom-left-radius: 10px;
