@@ -9,10 +9,12 @@ function upRight(pHeight, pColorEven, pColorOdd, pSymbol) {
     var rLine = "";
     for (i = 0; i < pHeight; i++) {
         rLine += "<p>";
+        // Create each line on the Rhombus
         for (j = 0; j <= i; j++) {
-            if (j % 2) 
+            // Is the position even or odd so we change the color
+            if (j % 2) // even
                 rLine += "<span style='color:" + pColorEven + ";'>" + pSymbol + "</span>";
-            else 
+            else // odd
                 rLine += "<span style='color:" + pColorOdd + ";'>" + pSymbol + "</span>";
         }
         rLine += "</p>";
@@ -24,10 +26,12 @@ function downRight(pHeight, pColorEven, pColorOdd, pSymbol) {
     var rLine = "";
     for (i = pHeight; i > 0; i--) {
         rLine += "<p>";
+        // Create each line on the Rhombus
         for (j = 0; j < i; j++) {
-            if (j % 2) 
+            // Is the position even or odd so we change the color
+            if (j % 2) // even
                 rLine += "<span style='color:" + pColorEven + ";'>" + pSymbol + "</span>";
-            else 
+            else // odd
                 rLine += "<span style='color:" + pColorOdd + ";'>" + pSymbol + "</span>";
         }
         rLine += "</p>";
@@ -35,14 +39,20 @@ function downRight(pHeight, pColorEven, pColorOdd, pSymbol) {
     document.getElementById("downRight").innerHTML = rLine;
 }
 
+// New functions for upLeft and downLeft
 function upLeft(pHeight, pColorEven, pColorOdd, pSymbol) {
     var rLine = "";
     for (i = 0; i < pHeight; i++) {
         rLine += "<p>";
-        for (j = 0; j < (pHeight - i); j++) { // Adjusting to create the left side
-            if (j % 2) 
+        // Create each line on the Rhombus
+        for (j = pHeight - 1; j > i; j--) {
+            rLine += "&nbsp;"; // Add spaces for alignment
+        }
+        for (j = 0; j <= i; j++) {
+            // Is the position even or odd so we change the color
+            if (j % 2) // even
                 rLine += "<span style='color:" + pColorEven + ";'>" + pSymbol + "</span>";
-            else 
+            else // odd
                 rLine += "<span style='color:" + pColorOdd + ";'>" + pSymbol + "</span>";
         }
         rLine += "</p>";
@@ -54,10 +64,15 @@ function downLeft(pHeight, pColorEven, pColorOdd, pSymbol) {
     var rLine = "";
     for (i = pHeight; i > 0; i--) {
         rLine += "<p>";
-        for (j = 0; j < (pHeight - i + 1); j++) { // Adjusting to create the left side
-            if (j % 2) 
+        // Create spaces for alignment
+        for (j = pHeight; j > i; j--) {
+            rLine += "&nbsp;"; // Add spaces for alignment
+        }
+        for (j = 0; j < i; j++) {
+            // Is the position even or odd so we change the color
+            if (j % 2) // even
                 rLine += "<span style='color:" + pColorEven + ";'>" + pSymbol + "</span>";
-            else 
+            else // odd
                 rLine += "<span style='color:" + pColorOdd + ";'>" + pSymbol + "</span>";
         }
         rLine += "</p>";
