@@ -95,7 +95,7 @@ border-top: 1px solid #e1e1e1;
   padding: 1rem;
   border-radius: 8px;
   position: relative;
- 
+  bottom: 1102px;
 }
 
 .container {
@@ -104,6 +104,7 @@ border-top: 1px solid #e1e1e1;
   position: relative;
   top: 30px;
   left: 42px;
+  align-items: center;
 }
 
 
