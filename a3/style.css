@@ -1,1 +1,24 @@
+.rhombus-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 
+.top-row, .bottom-row {
+    display: flex;
+    justify-content: center;
+}
+
+#upLeft, #upRight, #downLeft, #downRight {
+    margin: 5px;
+}
+
+#upLeft, #downLeft {
+    text-align: right; 
+    width: 50px; 
+}
+
+#upRight, #downRight {
+    text-align: left; 
+    width: 50px; 
+}
