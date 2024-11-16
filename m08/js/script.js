@@ -17,3 +17,6 @@ var position = document.getElementsByTagName('ul')[0];
 // Insert the new element into its position.
 position.appendChild(newEl);}
 
+// Clear the input field after adding the item.
+  document.getElementById('items').value = ''; }
+
