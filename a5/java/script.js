@@ -1,9 +1,9 @@
 const images = [
-  { src: "../images/seal1.jpeg", description: "Silly Seal #1" },
-  { src: "../images/seal2.jpeg", description: "Silly Seal #2" },
-  { src: "../images/seal3.jpeg", description: "Silly Seal #3" },
-  { src: "../images/seal4.jpeg", description: "Silly Seal #4" },
-  { src: "../images/seal5.jpeg", description: "Silly Seal #5" },
+  { src: "./images/seal1.jpeg", description: "Silly Seal #1" },
+  { src: "./images/seal2.jpeg", description: "Silly Seal #2" },
+  { src: "./images/seal3.jpeg", description: "Silly Seal #3" },
+  { src: "./images/seal4.jpeg", description: "Silly Seal #4" },
+  { src: "./images/seal5.jpeg", description: "Silly Seal #5" },
 ];
 
 let currentIndex = 0;
