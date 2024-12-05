@@ -115,6 +115,46 @@ body {
      position: relative;
      top: 15px;
 }
+ #mealprepicon {
+     width: 50px;
+     position: relative;
+     top: 15px;
+}
+ #templateicon {
+     width: 40px;
+     position: relative;
+     top: 15px;
+}
+ #cssicon {
+     width: 50px;
+     position: relative;
+     top: 15px;
+}
+ #mathicon {
+     width: 40px;
+     position: relative;
+     top: 15px;
+}
+ #testicon {
+     width: 45px;
+     position: relative;
+     top: 15px;
+}
+ #hotelicon {
+     width: 50px;
+     position: relative;
+     top: 15px;
+}
+ #groceryicon {
+     width: 50px;
+     position: relative;
+     top: 15px;
+}
+ #doticon {
+     width: 35px;
+     position: relative;
+     top: 15px;
+}
  #htmlvalidated {
      background-color: #f1f1f1;
      padding: 1rem;
