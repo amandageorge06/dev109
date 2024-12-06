@@ -14,6 +14,8 @@ body {
  a:hover {
      color: #880000;
 }
+
+/*makes the content fit/not take up the whole page*/
  #wrap {
      margin: 40px auto;
      width: 940px;
