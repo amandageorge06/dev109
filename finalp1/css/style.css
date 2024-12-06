@@ -124,6 +124,8 @@ body {
 #groceryicon,
 #hotelicon {
     width: 50px; 
+    position: relative;
+    top: 15px;
 }
 
 #fancyline {
