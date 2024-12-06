@@ -10,6 +10,7 @@ body {
  a {
      color: #000088;
 }
+/*hover effect for links*/
  a:hover {
      color: #880000;
 }
@@ -84,77 +85,45 @@ body {
      font-size: 17px;
      font-weight: normal;
 }
- #resumeicon {
-     width: 50px;
-     position: relative;
-     top: 15px;
-     justify-content: center;
+ /*40 px icons*/
+#resumeicon,
+#chessicon,
+#rhombusicon,
+#contacticon,
+#slideshowicon,
+#recipiesicon,
+#mealprepicon,
+#templateicon,
+#cssicon,
+#mathicon,
+#hotelicon,
+#groceryicon, {
+    width: 40px; 
+    position: relative; 
+    top: 15px; 
 }
- #chessicon {
-     width: 40px;
-     position: relative;
-     top: 15px;
-}
- #rhombusicon {
-     width: 40px;
-     position: relative;
-     top: 15px;
-}
- #contacticon {
-     width: 40px;
-     position: relative;
-     top: 15px;
-}
- #slideshowicon {
-     width: 40px;
-     position: relative;
-     top: 15px;
-}
- #recipiesicon {
-     width: 50px;
-     position: relative;
-     top: 15px;
-}
- #mealprepicon {
-     width: 50px;
-     position: relative;
-     top: 15px;
-}
- #templateicon {
-     width: 40px;
-     position: relative;
-     top: 15px;
-}
- #cssicon {
-     width: 50px;
-     position: relative;
-     top: 15px;
-}
- #mathicon {
-     width: 40px;
-     position: relative;
-     top: 15px;
-}
- #testicon {
-     width: 45px;
-     position: relative;
-     top: 15px;
-}
- #hotelicon {
-     width: 50px;
-     position: relative;
-     top: 15px;
-}
- #groceryicon {
-     width: 50px;
-     position: relative;
-     top: 15px;
-}
+
  #doticon {
      width: 35px;
      position: relative;
      top: 15px;
 }
+
+ #testicon {
+     width: 45px;
+     position: relative;
+     top: 15px;
+}
+
+/*50 px icons*/
+#resumeicon,
+#recipiesicon,
+#mealprepicon,
+#groceryicon,
+#hotelicon {
+    width: 50px; 
+}
+
 #fancyline {
      width: 700px;
      height: 100px;
@@ -198,6 +167,7 @@ body {
  #footer a:hover {
      border-bottom: 1px dotted #ccc;
 }
+/*layout adjustments*/
  .left {
      float: left;
 }
