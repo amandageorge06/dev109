@@ -1,37 +1,35 @@
 function validateForm(event) {
-   // Prevent form submission to check validation
    event.preventDefault();
 
-   // Get form values
    const fullName = document.getElementById('fullname').value.trim();
    const email = document.getElementById('email').value.trim();
    const comment = document.getElementById('comment').value.trim();
 
-   // Validate full name
+   //validate name
    if (fullName === "") {
-      alert("Full Name is required.");
+      alert("Enter Full Name");
       return false;
    }
 
-   // Validate email format
+   //validate email
    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
    if (email === "" || !emailRegex.test(email)) {
-      alert("Please enter a valid email address.");
+      alert("Enter a valid email address");
       return false;
    }
 
-   // Validate comment
+   //validate comment
    if (comment === "") {
-      alert("Comment is required.");
+      alert("Enter Comment");
       return false;
    }
 
-   // If all fields are valid, redirect to thank you page
+   // if passes redirect to thank you page
    alert("Thank you for your submission!");
    window.location.href = "thankyou.html";
 }
 
-// Add event listener to the form
+
 window.onload = function() {
    const form = document.forms['myContact'];
    form.onsubmit = validateForm;
