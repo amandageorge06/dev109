@@ -96,34 +96,66 @@ body {
      top: 15px;
      justify-content: center;
 }
-
- #chessicon,
- #rhombusicon, 
- #contacticon,
- #slideshowicon,
- #templateicon, 
- #mathicon, {
+ #chessicon {
      width: 40px;
      position: relative;
      top: 15px;
 }
-
- #recipiesicon,
- #mealprepicon, 
- #cssicon, 
- #hotelicon,
- #groceryicon {
+ #rhombusicon {
+     width: 40px;
+     position: relative;
+     top: 15px;
+}
+ #contacticon {
+     width: 40px;
+     position: relative;
+     top: 15px;
+}
+ #slideshowicon {
+     width: 40px;
+     position: relative;
+     top: 15px;
+}
+ #recipiesicon {
      width: 50px;
      position: relative;
      top: 15px;
 }
-
+ #mealprepicon {
+     width: 50px;
+     position: relative;
+     top: 15px;
+}
+ #templateicon {
+     width: 40px;
+     position: relative;
+     top: 15px;
+}
+ #cssicon {
+     width: 50px;
+     position: relative;
+     top: 15px;
+}
+ #mathicon {
+     width: 40px;
+     position: relative;
+     top: 15px;
+}
  #testicon {
      width: 45px;
      position: relative;
      top: 15px;
 }
-
+ #hotelicon {
+     width: 50px;
+     position: relative;
+     top: 15px;
+}
+ #groceryicon {
+     width: 50px;
+     position: relative;
+     top: 15px;
+}
  #doticon {
      width: 35px;
      position: relative;
